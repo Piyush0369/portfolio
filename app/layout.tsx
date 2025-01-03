@@ -60,7 +60,7 @@ export default function RootLayout({
             }),
           }}
         />
-        <script
+        {/* <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=G-${process.env.NEXT_PRIVATE_GTID}`}
         ></script>
@@ -74,10 +74,10 @@ export default function RootLayout({
               gtag('config', 'G-${process.env.NEXT_PRIVATE_GTID}');
             `,
           }}
-        />
+        /> */}
       </head>
       <body
-        className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}
+        className={`${inter.className} bg-[#050e39] overflow-y-scroll overflow-x-hidden`}
       >
         <SpeedInsights />
         <Analytics />
