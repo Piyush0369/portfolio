@@ -8,14 +8,18 @@ const Banner: React.FC<{}> = () => {
     <div className="flex flex-row items-center justify-center px-20 mt-[100px] z-[20] ">
       <div className="flex flex-col  justify-center  text-center">
         <div className="justify-center flex ">
-          <Image
+          {/* <Image
             priority
-            src="/Me.jpg"
+            src="/Me.webp"
             height={250}
             width={250}
             alt="Piyush Dewangan"
             style={{borderRadius: 50, backfaceVisibility:'revert'}}
-          />
+          /> */}
+          <img src="/Me.webp" height={250}
+            width={250}
+            alt="Piyush Dewangan"
+            style={{borderRadius: 50, backfaceVisibility:'revert'}}/>
         </div>
 
         <div className="flex flex-col gap-6 mt-10 cursor-pointer animate-bounce tracking-tighter text-7xl font-semibold text-white max-w-[600px] w-auto h-auto">
@@ -28,12 +32,16 @@ const Banner: React.FC<{}> = () => {
               Chill
             </span>
           </p>
-          <Image
+          {/* <Image
             src="/popcorn.gif"
             height={50}
             width={50}
             alt="Piyush Dewangan"
-          />
+          /> */}
+          <img src="/popcorn.gif"
+            height={50}
+            width={50}
+            alt="Piyush Dewangan" />
         </div>
 
         <p className="text-md text-gray-200 my-5 max-w-[600px]">

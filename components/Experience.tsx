@@ -13,7 +13,7 @@ const Experience: React.FC<{}> = () => {
       <div className=" container mx-auto 2xl ">
         <div className="md:flex md:flex-row md:justify-between pt-5">
           <div className="flex items-center gap-3">
-            <Image
+            <img
               src={"/rht-logo.png"}
               height={30}
               width={30}

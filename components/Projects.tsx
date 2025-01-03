@@ -20,7 +20,7 @@ const Projects: React.FC<{}> = () => {
             className="z-[1]"
           >
             <div className="flex-row flex mb-5">
-              <Image
+              <img
                 src="/veelo.png"
                 height={150}
                 width={150}
