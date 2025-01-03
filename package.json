@@ -6,12 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@next/third-parties": "^14.2.5",
     "@vercel/analytics": "^1.2.2",
     "@vercel/speed-insights": "^1.0.11",
+    "firebase-tools": "^13.29.1",
     "next": "14.1.1",
     "react": "^18",
     "react-dom": "^18",
